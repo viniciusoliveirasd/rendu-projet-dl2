@@ -135,7 +135,7 @@ def retropropagation(dnn, epochs, learning_rate, batch_size, X, y):
     plt.title("Entropie croisée au cours des iterations")
     plt.xlabel("epochs")
     plt.ylabel('entropie croisée')
-    f.savefig(f'retropropagation_epoch{epochs}_learningRate_{learning_rate}.png')
+    #f.savefig(f'retropropagation_epoch{epochs}_learningRate_{learning_rate}.png')
     plt.show()
     return [dnn, loss_history]
 
